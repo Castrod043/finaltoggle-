@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #6c64d4;
+}
+
+a:visited {
+    color:rgb(0, 0, 0);
+}
+
+.btn-toggle-nav {   
+    width: 100px;
+    height: 100px;
+    background-image: url("burger.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: none;
+    cursor: pointer;
+}
+
+.nav-sidebar {   
+    width: 250px;
+    
+}
+
+nav ul {
+    visibility: hidden;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    font-size:1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 24px 16px;
+}
+
+nav li a:hover {
+    font-size:1.75rem;
+}
+
+.blue {
+    background-color: #1612ec;
+    border: #f2f2f2 3px solid;
+}
+
+.red {
+    background-color: red;
+    border: #f2f2f2 3px solid;
+}
+
+.orange {
+    background-color: orange;
+    border: #f2f2f2 3px solid;
+}
+
+.violet {
+    background-color: violet;
+    border: #f2f2f2 3px solid;
+}
+
+.aquamarine {
+    background-color: aquamarine;
+    border: #f2f2f2 3px solid;
+}
+
+.bg-blue {
+    background-color: #2812eb;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-violet {
+    background-color: violet;
+}
+
+.bg-aquamarine {
+    background-color: aquamarine;
+}
